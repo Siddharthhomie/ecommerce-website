@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Simple E-commerce Website</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="https://images-platform.99static.com//NqpXl58L6FOL778_VCfTsDCxMQ4=/169x13:1329x1173/fit-in/500x500/99designs-contests-attachments/46/46607/attachment_46607433" alt="Store Logo" />
+            </div>
+            <h1>Gamers HUB</h1>
+            <div class="search-bar">
+                <input type="text" id="search-input" placeholder="Search products..." />
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="cart.html">Cart (<span id="cart-count">0</span>)</a></li>
+<li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="products">
+            <h2>Products</h2>
+            <label for="category-filter">Filter by Category:</label>
+            <select id="category-filter" style="margin-bottom: 15px;">
+                <option value="">All</option>
+                <option value="headphones">Headphones</option>
+<option value="gaming-chair">Gaming Chair</option>
+<option value="keyboards">Keyboards</option>
+            </select>
+            <div class="product-list">
+                <!-- Products will be dynamically inserted here -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="contact-info">
+                <h3>Contact Us</h3>
+                <p>Email: support@gamershub.com</p>
+                <p>Phone: +1 (555) 123-4567</p>
+                <p>Address: 123 Gaming St, Game City, GC 12345</p>
+            </div>
+            <div class="social-media">
+                <h3>Connect with Us</h3>
+                <a href="https://www.instagram.com/gamershub" target="_blank" aria-label="Instagram" class="social-icon instagram"></a>
+                <a href="https://www.facebook.com/gamershub" target="_blank" aria-label="Facebook" class="social-icon facebook"></a>
+                <a href="https://twitter.com/gamershub" target="_blank" aria-label="Twitter" class="social-icon twitter"></a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
